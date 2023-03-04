@@ -1,0 +1,357 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+header div .search{
+    position: relative;
+    margin-left: 150px;
+}
+header div .search .fa-search{
+    color: #606770;
+    position: absolute;
+    font-size: 15px;
+    left: -17px;
+    top: 10px;
+}
+header div .search input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+header div .search ::placeholder{
+    position: absolute;
+    margin-left:20px;
+    margin-top:7px;
+}
+header h3{
+    margin-top: 20px;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 200px;
+}
+header div .icon{
+margin-right: 100px;
+}
+header div .icon a{
+    margin-right: 15px;
+    color: black;
+}
+header div .icon a :hover{
+    color: blueviolet;
+}
+header hr{
+    margin-top: 50px;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+}
+header nav .home{
+    color: purple;
+}
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+}
+header nav select{
+    border: none;
+}
+header nav a:hover{
+    color: blueviolet;
+}
+.first {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color:  rgb(235, 230, 230);  
+}
+.first a{
+    margin-left: 100px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.first p{
+    margin-left: 5px;
+}
+.first .a{
+    color: rgb(86, 35, 134);
+}
+.second p{
+    margin-top: 50px;
+    height: 50px;
+    width: 1300px;
+    margin-left: 100px;
+    color: #606770;
+    border: 1px solid;
+    padding-top: 13px ;
+    padding-left: 20px;
+}
+.second a{
+    text-decoration: none;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.main .left {
+    width: 640px;
+    height: 780px;
+    margin-left: 85px;
+}
+.main .right{
+    width: 640px;
+    height: 950px;
+    margin-right: 100px; 
+}
+.main .left fieldset{
+    width: 640px;
+    height: 800px;
+    margin-top: 10px;
+}
+
+.main .left  form{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 550px;
+    height: 750px;
+}
+.main .left fieldset select{
+    margin-top: 10px;
+    width: 500px;
+    height: 35px;
+}
+.main .left .name{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -55px;
+    margin-top: 20px;
+}
+.main .left .name input{
+margin-top: 10px;
+width: 200px;
+height: 30px;
+margin-bottom: 20px;
+}
+.main .left .name .a{
+    margin-left: 1px;
+}
+.main .left .com{
+    margin-top: 10px;
+    width: 500px;
+    height: 35px;
+}
+.main .left .add{
+    margin-top: 10px;
+    width: 500px;
+    height: 35px;
+}
+.main .left .ser{
+    margin-bottom: 20px;
+}
+.main .left .serr{
+    margin-bottom: 20px;
+}
+.main .left textarea{
+    margin-top: 10px;
+}
+.main .right fieldset{
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.main .right fieldset p{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.main .right fieldset div{
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+.main .right fieldset div .a{
+    width: 200px;
+    height: 30px;
+}
+.main .right fieldset div .b{
+    width:70px;
+    height: 30px;
+    background-color: purple;
+    color:white;
+    border: none;
+    margin-left: -20px;
+}
+.main .right .one {
+    height: 600px;
+}
+.main .big {
+    font-size: 30px;
+}
+
+.main .right .one .a {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-left: -80px;
+    margin-top: 20px;
+}
+.main .right .one div{
+    width: 400px;
+    height: 280px;
+    margin-top: 40px;
+}
+.main .right .one div li{
+    list-style-type: none;
+}
+.main .right .one .a .aa{
+    margin-left: 35px;
+}
+.main .right .one .a .bb{
+    margin-left: 30px;
+}
+.main .right .one .a .cc{
+    margin-left: 25px;
+}
+.main .right .one .a .dd{
+    margin-left: 20px;
+}
+.main .right .one .a .ab{
+    margin-right: 20px;
+}
+.main .right .one .a .ba{
+    margin-right: 10px;
+}
+.main .right .one .p1{
+    margin-top:10px;
+    border: 1px solid purple;
+    width: 400px;
+    height: 40px;
+    padding: 10px 10px;
+    color: purple;
+    margin-bottom: 20px;
+}
+.main .right .one .p2{
+    border:  1px solid purple;
+    width: 400px;
+    height: 40px;
+    padding: 10px 120px;
+    color: white;
+    background-color: purple;
+    margin-top: 30px;
+    transition: 0.2s;
+}
+.main .right .one a{
+    text-decoration: none;
+}
+.main .right .one .p2:hover{
+    background: rgb(55, 3, 55);
+    transform: scale(1.1,1.1);
+    box-shadow: 1px 1px silver;
+}
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+}
+footer div {
+    display: flex;
+    justify-content: space-around;
+
+}
+footer ul li{
+    list-style-type: none;
+    margin: 15px;
+    color: #606770;
+}
+footer .on .one{
+    color: black;
+    font-size: 20px;
+}
+footer .tw {
+    margin-top: 35px;
+    margin-left: -80px;
+}
+footer .thr{
+    margin-top: 35px;
+    margin-left: -150px;
+}
+footer .fo img{
+    width: 250px;
+    height: 100px;
+}
+footer .fo .one {
+    color: black;
+}
+footer .fo .two {
+    color:rebeccapurple ;
+}
+footer .fo{
+    margin-left: -100px;
+}
+footer .fiv li { 
+    display: flex;
+}
+footer .fiv li i{
+    margin-right: 15px;
+}
+footer .fiv .two{
+    margin-top: 40px;
+}
+footer .fiv .two .two{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    transition: all0.3 ease;
+    margin-left: -5px;
+}
+footer .fiv .two .one{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+footer .fiv .two .two:hover{
+    background-color: rgb(76, 17, 131);
+    transform: translate(1px,1px);
+    box-shadow: 0.3px 0.3px 0.3px 0.3px black;
+}
+footer .last{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+footer .last i{
+    color: blueviolet;
+}
+footer .last em{
+    color: blueviolet;
+}
+.main{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

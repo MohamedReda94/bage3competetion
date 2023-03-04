@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+
+        <div>
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <i class="fas fa-search"></i>    
+            </div>
+            <h3>Mohamed Reda</h3>
+            <div class="icon">
+                <a href=""><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>        
+        </div>
+        <hr>
+        <nav>
+            <a href="">
+                <select  name="HOME" id="HOME">
+                    <option value="HOME">HOME</option>
+                </select>  
+            </a>
+            <a href="">
+                <select  name="About" id="About">
+                    <option value="ABOUT">ABOUT</option>
+                </select>
+            </a>
+            <a class="home" href="">SHOP</a>
+            <a href="">CATALOGUE</a>
+            <a href="">NEW ARRIVALS</a>
+            <a href="">CONTACT</a>
+        </nav>
+    </header>
+    <div class="first">
+        <a href="">Home / </a>
+        <p>Cart</p> 
+        
+    </div>
+    <section class="a" >
+        <table>
+           <tr>
+            <th > Image</th>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quality</th>
+            <th>Total</th>
+            <th>Remove</th>
+           </tr> 
+           <tr>
+            <th ><img src="photos/cloth_1.jpg" alt=""></th>
+            <th>Top Up T-Shirt</th>
+            <th>$49,00</th>
+            <th><form >
+                <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                <input type="number" id="number" value="0" />
+                <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div><br>
+              </form></th>
+            <th>$49,00</th>
+            <th><p>x</p></th>
+           </tr> 
+           <tr>
+            <th ><img src="photos/cloth_2.jpg" alt=""></th>
+            <th>Polo Shirt</th>
+            <th>$49,00</th>
+            <th><form >
+                <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                <input type="number" id="number" value="0" />
+                <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div><br>
+              </form></th>
+            <th>$49,00</th>
+            <th><p>x</p></th>
+           </tr> 
+        </table>
+    </section>
+    <section class="last">
+        <div class="left">
+            <div>
+                <p class="aa">UPDATE CART</p>
+                <p>CONTINUE SHOPPING</p>
+            </div>
+            <p class="b">Coupon</p>
+            <p class="c">Entre your coupon code if you have one.</p>
+            <form action="">
+                <input class="a" type="text" value="Coupon Code">
+                <input class="b" type="submit" value="APPLY COUPON">
+            </form>
+
+        </div>
+
+        <div class="right">
+           <P class="a">CART TOTALS</P> 
+           <hr>
+           <ul>
+            <li>sub total</li>
+            <li>$230.00</li>
+           </ul>
+           <ul class="b">
+            <li>total</li>
+            <li>$230.00</li>
+           </ul>
+           <a href="bage 6/index.html"><p>PROCEES TO CHECKOUT</p></a>
+
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <div>
+            <ul class="on">
+                <li class="one">Navigations</li>
+                <li>sell online</li>
+                <li>Features</li>
+                <li>Shopping cart</li>
+                <li>Store builder</li>
+            </ul>
+            <ul class="tw">
+                <li>Mobile commerce</li>
+                <li>Shopping cart</li>
+                <li>Website development</li>
+            </ul>
+            <ul class="thr">
+                <li>Point of sale</li>
+                <li>Hardware</li>
+                <li>Software</li>
+            </ul>
+            <ul class="fo">
+                <li class="one">Promo</li>
+                <li><img src="photos/hero_1.jpg" alt=""></li>
+                <li class="two">Finding Your Perfect Shoes</li>
+                <li>Promo from nuary 15 - 25,2019 </li>
+            </ul>
+            <ul class="fiv">
+                <li class="one">Contact info</li>
+                <li><i class="fa-solid fa-location-dot"></i> <p>2023 fake st.Mountain View , San <br> francisco california, USA</p></li>
+                <li><i class="fa-solid fa-phone"></i> 01102074042</li>
+                <li><i class="fa-solid fa-envelope"></i> mohammed.fekri255@gmail.com</li>
+                <li class="two">
+                    <form action="">
+                        <label for="Subscribe">Subscribe</label><br>
+                        <input class="one" type="text" placeholder="Email">
+                        <input class="two" type="submit" value="Send">
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <p class="last">Copyright @2021 ALL rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by <em>Mohamed Reda</em></p>
+        
+    </footer>
+
+    
+</body>
+</html>

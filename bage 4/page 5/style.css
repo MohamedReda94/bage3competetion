@@ -1,0 +1,362 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+header div .search{
+    position: relative;
+    margin-left: 150px;
+}
+header div .search .fa-search{
+    color: #606770;
+    position: absolute;
+    font-size: 15px;
+    left: -17px;
+    top: 10px;
+}
+header div .search input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+header div .search ::placeholder{
+    position: absolute;
+    margin-left:20px;
+    margin-top:7px;
+}
+header h3{
+    margin-top: 20px;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 200px;
+}
+header div .icon{
+margin-right: 100px;
+}
+header div .icon a{
+    margin-right: 15px;
+    color: black;
+}
+header div .icon a :hover{
+    color: blueviolet;
+}
+header hr{
+    margin-top: 50px;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+}
+header nav .home{
+    color: purple;
+}
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+}
+header nav select{
+    border: none;
+}
+header nav a:hover{
+    color: blueviolet;
+}
+.first {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color:  rgb(235, 230, 230);  
+}
+.first a{
+    margin-left: 100px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.a table {
+    border: 1px solid;
+    border-collapse: collapse;
+    width:95%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.a table,th,td{
+    border: 1px solid;
+    height: 100px;
+}
+.a table img {
+    width: 150px;
+}
+form {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .value-button {
+    display: inline-block;
+    border: 1px solid #dddddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 0;
+    background: #eee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .value-button:hover {
+    cursor: pointer;
+    background-color: purple;
+  }
+  
+  form #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  form #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  .a table p{
+    border: 1px solid;
+    width: 50px;
+    margin-right: -30px;
+    margin-left: 50px;
+    background-color: purple;
+    color: whitesmoke;
+  }
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.last .left div {
+    display: flex;
+    margin-left: 30px;
+}
+.last .left div p{
+    margin-left: 30px;
+    border: 1px solid;
+    padding: 5px 50px;
+    font-size: 13px;
+    color: purple;
+    transition: 0.2s;
+}
+.last .left div .aa{
+    background-color: purple;
+    color: white;
+    padding: 5px 90px;
+
+}
+.last .left div p:hover{
+    background-color: rgb(49, 1, 49);
+    color: white;
+    transform: scale(1.1,1.1);
+    box-shadow: 1px 1px silver;
+}
+.last .left .b{
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.last .left .c{
+    margin-top: 5px;
+    margin-left: 60px;
+    font-size: 15px;
+    color: #606770;
+}
+.last .left form{
+    margin-top: -30px;
+    margin-left: 60px;
+}
+
+.last .left form .a{
+    height: 30px;
+    width: 350px;
+}
+.last .left form .b{
+    height: 30px;
+    width: 150px;
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    border: none;
+    transition: 0.2s;
+    margin-left:15px;
+}
+.last .left form .b:hover{
+    background-color: rgb(55, 4, 55);
+    transform: scale(1.1,1.1);
+    box-shadow: 1px 1px silver;
+}
+.last .right{
+    margin-right: 20px;
+    width: 400px;
+    
+}
+
+.last .right .a{
+margin-left: 280px;
+}
+.last .right ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-bottom: 60px;
+}
+.last .right li{
+    list-style-type: none;
+}
+.last .right .b{
+    margin-top: -40px;
+}
+.last .right a p{
+    border: 1px solid;
+    margin-left: 50px;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    transition: 0.2s;
+    width: 250px;
+}
+.last .right a{
+    text-decoration: none;
+
+}
+.last .right a p:hover{
+    background-color: rgb(55, 4, 55);
+    transform: scale(1.1,1.1);
+    box-shadow: 1px 1px silver;    
+}
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+}
+footer div {
+    display: flex;
+    justify-content: space-around;
+
+}
+footer ul li{
+    list-style-type: none;
+    margin: 15px;
+    color: #606770;
+}
+footer .on .one{
+    color: black;
+    font-size: 20px;
+}
+footer .tw {
+    margin-top: 35px;
+    margin-left: -80px;
+}
+footer .thr{
+    margin-top: 35px;
+    margin-left: -150px;
+}
+footer .fo img{
+    width: 250px;
+    height: 100px;
+}
+footer .fo .one {
+    color: black;
+}
+footer .fo .two {
+    color:rebeccapurple ;
+}
+footer .fo{
+    margin-left: -100px;
+}
+footer .fiv li { 
+    display: flex;
+}
+footer .fiv li i{
+    margin-right: 15px;
+}
+footer .fiv .two{
+    margin-top: 40px;
+}
+footer .fiv .two .two{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    transition: all0.3 ease;
+    margin-left: -5px;
+}
+footer .fiv .two .one{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+footer .fiv .two .two:hover{
+    background-color: rgb(76, 17, 131);
+    transform: translate(1px,1px);
+    box-shadow: 0.3px 0.3px 0.3px 0.3px black;
+}
+footer .last{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+footer .last i{
+    color: blueviolet;
+}
+footer .last em{
+    color: blueviolet;
+}
+hr{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
